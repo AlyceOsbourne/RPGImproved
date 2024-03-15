@@ -1,0 +1,12 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "type": "multitext",
+    "fileClass": "multitext",
+    "renderViews": "checkbox",
+    "customViews": "multitext",
+    "hide": "checkbox"
+  }
+}

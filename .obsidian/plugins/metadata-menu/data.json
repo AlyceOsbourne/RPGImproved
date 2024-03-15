@@ -1,0 +1,66 @@
+{
+  "presetFields": [
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {},
+      "name": "parents",
+      "id": "2ngk16",
+      "path": ""
+    },
+    {
+      "type": "Lookup",
+      "tagName": "lookup",
+      "icon": "file-search",
+      "tooltip": "Accepts a lookup query",
+      "colorClass": "lookup",
+      "options": {
+        "autoUpdate": true,
+        "dvQueryString": "dv.pages(\"\")",
+        "targetFieldName": "parents",
+        "outputType": "LinksList",
+        "builtinSummarizingFunction": "Count",
+        "customListFunction": "page.file.name",
+        "customSummarizingFunction": "return pages.length",
+        "summarizedFieldName": ""
+      },
+      "name": "children",
+      "id": "OSm5hW",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "types/",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.24",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 20,
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": false,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": true,
+  "fileClassIcon": "package",
+  "isAutoCalculationEnabled": true
+}
