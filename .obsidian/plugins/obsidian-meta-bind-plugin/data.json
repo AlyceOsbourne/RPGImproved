@@ -16,7 +16,22 @@
   "enableSyntaxHighlighting": true,
   "enableEditorRightClickMenu": true,
   "inputFieldTemplates": [],
-  "buttonTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "+",
+      "hidden": true,
+      "class": "",
+      "tooltip": "",
+      "id": "add-meta",
+      "style": "plain",
+      "actions": [
+        {
+          "type": "command",
+          "command": "metadata-menu:open_fields_modal"
+        }
+      ]
+    }
+  ],
   "excludedFolders": [
     "types",
     "templates"

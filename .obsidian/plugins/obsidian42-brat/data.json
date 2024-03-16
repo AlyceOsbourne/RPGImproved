@@ -1,7 +1,5 @@
 {
-  "pluginList": [
-    "Quorafind/Obsidian-Templify"
-  ],
+  "pluginList": [],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
   "updateAtStartup": true,

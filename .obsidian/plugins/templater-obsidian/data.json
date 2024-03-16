@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Entities",
+      "template": "templates/From Type.md"
     }
   ],
   "syntax_highlighting": true,

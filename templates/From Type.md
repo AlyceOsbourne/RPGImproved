@@ -1,11 +1,13 @@
 <% "---" %>
 fileClass: [ ]
 parents: [ ]
-children:
-hide: true
-renderViews: true
+hide: false
+hideConfig: false
+hideViews: false
 <% "---" %>
 
-```meta-bind-embed
-[[Combined]]
-```
+<% "~~~meta-bind-embed"  -%>
+
+[[Type View]]
+
+<%- "~~~" %>

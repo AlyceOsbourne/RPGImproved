@@ -1,10 +1,8 @@
 [
   "dataview",
   "templater-obsidian",
-  "obsidian-meta-bind-plugin",
   "metadata-menu",
   "callout-integrator",
   "metadata-hider",
-  "obsidian42-brat",
-  "templify"
+  "obsidian-meta-bind-plugin"
 ]

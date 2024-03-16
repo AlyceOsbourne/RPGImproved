@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "912f43a51be3e76a",
+        "id": "c65ed37ca02d10f8",
         "type": "tabs",
         "children": [
           {
-            "id": "9264082bf65832f8",
+            "id": "a5f0ff7b03db9ed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/From Type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e980f964ae6ac368",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Entities/NPCs/Tanya the Trader.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Entities/NPCs/Tanya the Trader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Entities/NPCs/Tanya the Trader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Entities/NPCs/Tanya the Trader.md"
               }
             }
           },
@@ -172,51 +159,51 @@
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
-      "templater-obsidian:Templater": false,
-      "workspaces:Manage workspace layouts": true,
-      "obsidian42-brat:BRAT": true,
-      "templify:Templify Market": true
+      "workspaces:Manage workspace layouts": true
     }
   },
-  "active": "e980f964ae6ac368",
+  "active": "a5f0ff7b03db9ed1",
   "lastOpenFiles": [
+    "types/Living.md",
+    "Entities/Locations/Foobar.md",
+    "Entities/NPCs/Tanya the Trader.md",
     "templates/From Type.md",
-    "Untitled.md",
-    "Alyce.md",
-    "types/Person.md",
-    "templify-Cornell Note Template-20240315111427.md",
-    "views/Combined.md",
-    "views/Options.md",
-    "views/View.md",
+    "types/Lootable.md",
+    "types/Trader.md",
     "types/Stats.md",
-    "views",
-    "types/HasBackPack.md",
-    "types/Untitled.md",
+    "views/Options.md",
+    "views/Type View.md",
+    "views/View.md",
+    "Entities/Item/Goo.md",
+    "types/Spawn.md",
+    "Entities/Locations",
+    "types/Location.md",
+    "Registry.md",
+    "types/NPCs/TraderNPC.md",
+    "types/NPCs",
+    "types/Items",
+    "types/Item.md",
+    "types/Survival Stats.md",
+    "Entities/Item/Item.md",
+    "Entities/Item",
+    "Entities/Untitled.md",
+    "ObjToTable.js",
     "types/Base.md",
-    "types/Entity.md",
-    "Untitled 1.md",
-    "templates/Render Fileclass.md",
-    "templates/Render Custom Views.md",
-    "Example.md",
-    "Vault.md",
-    "Spaces/Home/Home.md",
-    "Spaces/Home",
-    "Spaces",
-    "types/T.md",
-    "types/Book.md",
-    "types/HasInventory.md",
-    "types/Other.md",
-    "types",
-    "templates",
-    "Test.md",
-    "Test2.md",
-    "Test3.md",
-    "Templates",
-    "Untitled 1",
-    "Types"
+    "Entities/NPCs",
+    "types/A.md",
+    "types/C.md",
+    "types/B.md",
+    "Entities",
+    "types/Description.md",
+    "templates/Untitled.md",
+    "types/Test.md",
+    "entities",
+    "views",
+    "Spaces/Home"
   ]
 }
