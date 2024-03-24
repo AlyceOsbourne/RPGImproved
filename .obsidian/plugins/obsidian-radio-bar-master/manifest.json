@@ -1,0 +1,10 @@
+{
+  "id": "pyxie-radio",
+  "name": "Radio",
+  "version": "0.0.1",
+  "minAppVersion": "1.0.0",
+  "description": "Wini Radio Player",
+  "author": "AlyceOsbourne",
+  "authorUrl": "https://github.com/AlyceOsbourne",
+  "isDesktopOnly": true
+}

@@ -1,8 +1,23 @@
 [
   "dataview",
-  "templater-obsidian",
   "metadata-menu",
   "callout-integrator",
   "metadata-hider",
-  "obsidian-meta-bind-plugin"
+  "obsidian-hider",
+  "obsidian-style-settings",
+  "obsidian-hover-editor",
+  "obsidian42-brat",
+  "obsidian-meta-bind-plugin",
+  "advanced-canvas",
+  "graph-nested-tags",
+  "graph-link-types",
+  "code-files",
+  "OA-file-hider",
+  "pyxie-radio",
+  "obsidian-dice-roller",
+  "breadcrumbs",
+  "css-editor",
+  "python-scripter",
+  "open-gate",
+  "key-value-list"
 ]

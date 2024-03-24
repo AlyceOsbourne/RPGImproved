@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "c65ed37ca02d10f8",
+        "id": "84f5332fe471a930",
         "type": "tabs",
         "children": [
           {
-            "id": "a5f0ff7b03db9ed1",
+            "id": "aee5131886ce87ec",
+            "type": "leaf",
+            "state": {
+              "type": "css-editor-view",
+              "state": {
+                "filename": "celtic.css"
+              }
+            }
+          },
+          {
+            "id": "5bccafc38282d7ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entities/NPCs/Tanya the Trader.md",
-                "mode": "source",
+                "file": "Example NPC.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,20 +75,12 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "68288d58bf021418",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 482.5
   },
   "right": {
     "id": "d650e5c015ab642f",
@@ -86,36 +89,8 @@
       {
         "id": "8c39b287d09ddbf8",
         "type": "tabs",
+        "dimension": 64.38095238095238,
         "children": [
-          {
-            "id": "155cc5cda0bd06f1",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Entities/NPCs/Tanya the Trader.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "fb49fcdd076738c0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Entities/NPCs/Tanya the Trader.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "f06c12ff8b1f5974",
             "type": "leaf",
@@ -128,17 +103,36 @@
             }
           },
           {
-            "id": "d1a14cf104f77a51",
+            "id": "7ec7471c4560cc8b",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "Entities/NPCs/Tanya the Trader.md"
+                "file": "Example NPC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2958d526141c3280",
+            "id": "a62bc0c5ace4a26e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Example NPC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f58df81113a8ca3b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -148,62 +142,126 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "68179a036bdca5ad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Example NPC.md"
+              }
+            }
+          },
+          {
+            "id": "e77d0aac82524373",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "a79470666c99780d",
+        "type": "tabs",
+        "dimension": 35.61904761904762,
+        "children": [
+          {
+            "id": "3686679669f46521",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Example NPC.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.713275462622443,
+                  "close": true
+                }
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 714.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
-      "templates:Insert template": true,
-      "workspaces:Manage workspace layouts": true
+      "templates:Insert template": false,
+      "workspaces:Manage workspace layouts": true,
+      "obsidian42-brat:BRAT": false,
+      "code-files:Create Code File": false,
+      "open-gate:GPT": true
     }
   },
-  "active": "a5f0ff7b03db9ed1",
+  "active": "5bccafc38282d7ef",
   "lastOpenFiles": [
-    "types/Living.md",
-    "Entities/Locations/Foobar.md",
-    "Entities/NPCs/Tanya the Trader.md",
-    "templates/From Type.md",
-    "types/Lootable.md",
-    "types/Trader.md",
+    "views/type.js",
+    "Example NPC.md",
+    "CommandIDs.md",
     "types/Stats.md",
-    "views/Options.md",
+    "types/Inventory.md",
+    "types/Trader.md",
+    "types/CraftingRecipe.md",
+    "types/CraftingStation.md",
+    "scripts/Example.py",
     "views/Type View.md",
-    "views/View.md",
-    "Entities/Item/Goo.md",
-    "types/Spawn.md",
-    "Entities/Locations",
+    "templates/From Type.md",
+    "views/type",
+    "types/Spawns.md",
+    "types/Loot Table.md",
     "types/Location.md",
-    "Registry.md",
-    "types/NPCs/TraderNPC.md",
-    "types/NPCs",
-    "types/Items",
     "types/Item.md",
-    "types/Survival Stats.md",
-    "Entities/Item/Item.md",
-    "Entities/Item",
-    "Entities/Untitled.md",
-    "ObjToTable.js",
-    "types/Base.md",
-    "Entities/NPCs",
-    "types/A.md",
-    "types/C.md",
-    "types/B.md",
-    "Entities",
     "types/Description.md",
-    "templates/Untitled.md",
-    "types/Test.md",
-    "entities",
+    "views/Controls.md",
+    "scripts",
+    "types/Action.md",
+    "Test Action.md",
+    "Test Skill A.md",
+    "types/Skill.md",
+    "Test Trader.md",
+    "Test Action 2.md",
+    "Test Item.md",
+    "Test Location.md",
+    "entities/Gold.md",
+    "types/Ancestry.md",
+    "entities/Ancestry.canvas",
     "views",
-    "Spaces/Home"
+    "entities",
+    "Entities",
+    "Assets/ghost.png",
+    "Assets",
+    "Entities/Locations",
+    "types/NPCs"
   ]
 }

@@ -1,0 +1,47 @@
+.radio-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.radio-audio {
+    width: 30px;
+    transition: width 0.3s;
+}
+
+.radio-audio:hover {
+    width: 300px;
+}
+
+.radio-track-select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50px;
+    transition: width 0.3s;
+}
+
+.radio-track-select:hover,
+.radio-track-select:focus {
+    width: 300px;
+}
+
+.radio-button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-list {
+    list-style: none;
+    padding: 0;
+}
+
+.radio-list-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

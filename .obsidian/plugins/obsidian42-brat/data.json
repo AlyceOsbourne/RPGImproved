@@ -1,5 +1,8 @@
 {
-  "pluginList": [],
+  "pluginList": [
+    "SkepticMystic/breadcrumbs",
+    "mProjectsCode/obsidian-meta-bind-plugin"
+  ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
   "updateAtStartup": true,

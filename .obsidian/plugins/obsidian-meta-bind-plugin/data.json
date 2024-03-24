@@ -2,7 +2,6 @@
   "devMode": false,
   "ignoreCodeBlockRestrictions": false,
   "preferredDateFormat": "YYYY-MM-DD",
-  "useUsDateInputOrder": false,
   "firstWeekday": {
     "index": 1,
     "name": "Monday",
@@ -12,28 +11,13 @@
   "minSyncInterval": 50,
   "maxSyncInterval": 1000,
   "enableJs": false,
-  "viewFieldDisplayNullAsEmpty": true,
+  "viewFieldDisplayNullAsEmpty": false,
   "enableSyntaxHighlighting": true,
   "enableEditorRightClickMenu": true,
   "inputFieldTemplates": [],
-  "buttonTemplates": [
-    {
-      "label": "+",
-      "hidden": true,
-      "class": "",
-      "tooltip": "",
-      "id": "add-meta",
-      "style": "plain",
-      "actions": [
-        {
-          "type": "command",
-          "command": "metadata-menu:open_fields_modal"
-        }
-      ]
-    }
-  ],
+  "buttonTemplates": [],
   "excludedFolders": [
-    "types",
     "templates"
-  ]
+  ],
+  "useUsDateInputOrder": false
 }

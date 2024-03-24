@@ -1,45 +1,14 @@
 {
   "presetFields": [
     {
-      "type": "MultiFile",
-      "tagName": "file",
-      "icon": "link",
-      "tooltip": "Accepts multiple internal links",
-      "colorClass": "file",
-      "options": {},
-      "name": "parents",
-      "id": "2ngk16",
-      "path": ""
-    },
-    {
-      "type": "Lookup",
-      "tagName": "lookup",
-      "icon": "file-search",
-      "tooltip": "Accepts a lookup query",
-      "colorClass": "lookup",
-      "options": {
-        "autoUpdate": true,
-        "dvQueryString": "dv.pages(\"\")",
-        "targetFieldName": "parents",
-        "outputType": "LinksList",
-        "builtinSummarizingFunction": "Count",
-        "customListFunction": "page.file.name",
-        "customSummarizingFunction": "return pages.length",
-        "summarizedFieldName": ""
-      },
-      "name": "children",
-      "id": "OSm5hW",
-      "path": ""
-    },
-    {
       "type": "Boolean",
       "tagName": "boolean",
       "icon": "toggle-left",
       "tooltip": "Accepts true or false",
       "colorClass": "boolean",
       "options": {},
-      "name": "hide",
-      "id": "BH9U5Q",
+      "name": "hideExtraViews",
+      "id": "EsRGuI",
       "path": ""
     },
     {
@@ -63,6 +32,17 @@
       "name": "hideViews",
       "id": "v5Mn7R",
       "path": ""
+    },
+    {
+      "type": "Boolean",
+      "tagName": "boolean",
+      "icon": "toggle-left",
+      "tooltip": "Accepts true or false",
+      "colorClass": "boolean",
+      "options": {},
+      "name": "hideMeta",
+      "id": "BH9U5Q",
+      "path": ""
     }
   ],
   "fileClassQueries": [],
@@ -71,7 +51,7 @@
   "classFilesPath": "types/",
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.33",
+  "settingsVersion": "5.48",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

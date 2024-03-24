@@ -1,4 +1,16 @@
 {
   "accentColor": "",
-  "cssTheme": "ITS Theme"
+  "cssTheme": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "S - Callouts",
+    "S - Dataview Cards",
+    "S - Embed Adjustments",
+    "S - Images Adjustments",
+    "obsidian-default-theme",
+    "celtic",
+    "type"
+  ],
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": 21
 }

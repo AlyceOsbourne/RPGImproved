@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Radio Rivendell",
+    "url": "https://play.radiorivendell.com/radio/8000/radio.mp3"
+  },
+  {
+    "name": "The '80s Guy - Darksynth Radio",
+    "url": "https://stream.nightride.fm/darksynth.ogg"
+  },
+  {
+    "name": "CVGM.net - Oldschool Video Game And Demoscene Music",
+    "url": "http://69.195.153.34:80/cvgm192"
+  },
+  {
+    "name": "EBSM - Electro Body Synth Music",
+    "url": "https://stream.nightride.fm/ebsm.ogg"
+  },
+  {
+    "name": "ChillSynth FM",
+    "url": "https://stream.chillsynth.fm/chillsynth.ogg"
+  }
+]

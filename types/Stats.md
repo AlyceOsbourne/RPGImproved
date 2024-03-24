@@ -5,67 +5,44 @@ fields:
     options:
       displayTemplate: ""
     path: ""
-    id: M8NEy1
-  - name: HP
+    id: jDyrWp
+  - name: Strength
     type: Number
     options:
       step: 1
-    path: M8NEy1
-    id: 2ZgP9v
-  - name: Attack
+    path: jDyrWp
+    id: GjT5eL
+  - name: Dexterity
     type: Number
     options:
       step: 1
-    path: M8NEy1
-    id: eBXxxB
-  - name: Defence
+    path: jDyrWp
+    id: 2gzlH0
+  - name: Constitution
     type: Number
     options:
       step: 1
-    path: M8NEy1
-    id: CDm0sm
-  - name: Stamina
+    path: jDyrWp
+    id: 8BkNHC
+  - name: Intelligence
     type: Number
     options:
       step: 1
-    path: M8NEy1
-    id: jgX4y8
-  - name: Mana
+    path: jDyrWp
+    id: auNZeT
+  - name: Wisdom
     type: Number
     options:
       step: 1
-    path: M8NEy1
-    id: pS2MMJ
-  - name: Survival Stats
-    type: Object
-    options:
-      displayTemplate: ""
-    path: ""
-    id: OWOKlD
-  - name: Hydration
+    path: jDyrWp
+    id: rVvghl
+  - name: Charisma
     type: Number
     options:
       step: 1
-      max: 100
-    path: OWOKlD
-    id: tbwetR
-  - name: Satiation
-    type: Number
-    options:
-      step: 1
-      max: 100
-      min: 0
-    path: OWOKlD
-    id: wL04IK
-  - name: Rested
-    type: Number
-    options:
-      step: 1
-      max: 100
-      min: 0
-    path: OWOKlD
-    id: jz0Ff0
-version: "2.38"
+    path: jDyrWp
+    id: 3QYlxl
+version: "2.25"
 limit: 20
 mapWithTag: false
 icon: package
@@ -77,22 +54,16 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
-  - M8NEy1
-  - 2ZgP9v
-  - pS2MMJ
-  - jgX4y8
-  - eBXxxB
-  - CDm0sm
-  - OWOKlD
-  - jz0Ff0
-  - wL04IK
-  - tbwetR
-hide: true
-cssclass: tables-no-alt-background
+  - jDyrWp
+  - GjT5eL
+  - 2gzlH0
+  - 8BkNHC
+  - rVvghl
+  - auNZeT
+  - 3QYlxl
 ---
-> [!columns | clean no-icon table-clean n-th]+ Stats
-> > [!nfo | clean no-icon table-clean n-th no-title] Stats
-> > `$=dv.markdownTable(["Stat", "Value"], Object.entries(dv.current()["Stats"] ?? {}))`
->  
-> > [!nfo | clean no-icon table-clean n-th no-title] Survival Stats
-> > `$=dv.markdownTable(["Stat", "Value"], Object.entries(dv.current()["Survival Stats"] ?? {}))`
+
+```dataviewjs
+const curr = dv.current()["Stats"] ?? {};
+dv.table(["Stat", "Level"], dv.array(Object.entries(curr)))
+```
